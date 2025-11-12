@@ -1,0 +1,85 @@
+# Node dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/pnpm-debug.log
+/.pnp
+.pnp.js
+
+# Node lock files (optional to ignore)
+# Uncomment if you don't want to commit lockfiles
+# /package-lock.json
+# /yarn.lock
+# /pnpm-lock.yaml
+
+# Build outputs
+/dist
+/build
+/.next
+/out
+/.turbo
+
+# Vite
+/.vite
+
+# TypeScript
+/*.tsbuildinfo
+
+# Python virtual envs
+/.venv
+/venv
+env/
+ENV/
+.venv/
+env.bak/
+/venv.bak/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+
+# pip / packaging
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains
+*.iml
+/.idea
+
+# Misc
+*.swp
+*.lock
